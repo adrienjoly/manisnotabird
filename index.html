@@ -74,6 +74,11 @@
 	  _gaq.push(['_setAccount', 'UA-1858235-10']);
 	  _gaq.push(['_setDomainName', 'manisnotabird.com']);
 	  _gaq.push(['_trackPageview']);
+	  _gaq.push(function(){
+	  	setTimeout(function(){
+          window.location.href = "http://www.ulule.com/manbird-album";
+	  	}, 1000);
+	  });
 	  (function() {
 	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
 	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
@@ -88,11 +93,6 @@
 
 	<p class="bio">Créé en 2012, le groupe formé de Adrien à la batterie, Valentin et Julian aux guitares et Julien à la basse, vogue entre un univers post-rock et math-rock.</p>
 
-    <p>redirection vers <a href="https://www.ulule.com/manbird-album">notre page ulule</a>...</P>
-
-    <script type="text/javascript">
-        window.location.href = "http://www.ulule.com/manbird-album";
-    </script>
-
+    <p>Redirecting to <a href="https://www.ulule.com/manbird-album">our ulule page</a>...</p>
 </body>
 </html>
